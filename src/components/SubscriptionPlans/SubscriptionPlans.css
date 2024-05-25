@@ -1,0 +1,124 @@
+.subscription-plans-container {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .card-heading {
+    display: flex;
+  }
+
+  .text-heading{
+   padding-left: 20px;
+  }
+
+  .plan-label {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;  
+    }
+
+  .subscription-card {
+    width: 320px;
+    margin: 10px;
+    background: #1B1B1B !important;
+    border-radius: 16px !important;
+    color: #EFEFF2 !important;
+    padding: 16px;
+    border: 1px solid #EFF0F6
+  }
+
+  .subscription-card-audiance {
+    width: 320px;
+    margin: 10px;
+    background: linear-gradient(180deg, #01E5D4 0%, #137AEA 83%) !important;
+    border-radius: 16px !important;
+    color: #EFEFF2 !important;
+    padding: 16px;
+    border: 1px solid #EFF0F6;
+    font-family: Calibri;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+
+}
+
+  .subtitle {
+    color: #EFEFF2 !important;
+  }
+  
+  .title {
+    color: #137AEA;
+    font-family: Calibri;
+    font-size: 28px;
+    font-weight: 700 !important;
+    line-height: 35px;
+    text-align: left;    
+  }
+
+  .description {
+    margin-top: 16px;
+  }
+
+  .feature-heading{
+    span{
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;    
+    }
+  }
+  .feature-text {
+    span{
+      width: 250px; 
+      word-wrap: break-word;
+      white-space: normal; 
+      overflow-wrap: break-word; 
+    }
+  }
+  
+  .feature-item {
+    color: #EFF0F6 !important;
+  }
+  
+  .css-cveggr-MuiListItemIcon-root{
+    color: #EFF0F6 !important;
+  }
+
+  .icon {
+    color: #00BFFF;
+  }
+
+  .action-button {
+    height: 70px;
+    border-radius: 96px !important;
+    text-transform: none;
+    width: 100%;
+    background: linear-gradient(180deg, #01E5D4 0%, #137AEA 83%);
+    font-family: Calibri  !important;
+    font-size: 18px  !important;
+    font-weight: 700 !important;
+    line-height: 20px  !important;
+    text-align: center;
+
+  }
+
+  .action-button-audiance{
+    height: 70px;
+    border-radius: 96px !important;
+    text-transform: none;
+    width: 100%;
+    color: #137AEA !important;
+    background: #FFFFFF !important;
+    font-family: Calibri !important;
+    font-size: 18px  !important;
+    font-weight: 700 !important;
+    line-height: 20px  !important;
+    text-align: center  !important;
+  }

@@ -1,0 +1,38 @@
+.image-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px !important;
+}
+
+.help{
+    padding-left: 15px;
+}
+
+.help-box{
+    padding-top: 35px;
+    padding-left: 5px;
+}
+
+.help-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.help-heading{
+    font-family: Calibri;
+    font-size: 28px !important;
+    font-weight: 400 !important;
+    line-height: 30px;
+    text-align: left;
+}
+
+.help-description{
+    p{
+        font-family: Calibri;
+        font-size: 20px !important;
+        font-weight: 400 !important;
+        line-height: 24px;
+        text-align: left;
+        color: #ABABAB;
+    }
+}
