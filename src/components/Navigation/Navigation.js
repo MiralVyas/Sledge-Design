@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Tabs, Tab } from '@mui/material';
-import { ReactComponent as SubscriptionIcon } from "../../subscription.svg";
+import { ReactComponent as SubscriptionIcon } from "../../credit-card.svg";
 import { ReactComponent as AdCampaignIcon } from '../../ad_campaign.svg';
 import { ReactComponent as LearnSledgingIcon } from '../../learn_sledging.svg';
 import { ReactComponent as GeneralGuidelinesIcon } from '../../general_guidelines.svg';
