@@ -36,3 +36,20 @@
         color: #ABABAB;
     }
 }
+.btn-container{
+    display: flex;
+   justify-content: center;
+
+}
+
+.violation-btn{
+    background: linear-gradient(180deg, #01E5D4 0%, #137AEA 83%);
+    width: 296px;
+    height: 52px;
+    padding: 0px 80px 0px 80px;
+    gap: 10px;
+    border-radius: 12px !important;
+    span{
+        color: #FFFFFF;
+    }
+}

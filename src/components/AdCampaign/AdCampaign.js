@@ -1,6 +1,6 @@
 import React from 'react';
 import "./AdCampaign.css";
-import { Box, Divider } from '@mui/material';
+import { Box, Button, Divider } from '@mui/material';
 import { ReactComponent as LineArrow } from '../../Vector 123.svg';
 import StartCampaign from './StartCampaign';
 import CheckCampaign from './CheckCampaign';
@@ -23,6 +23,9 @@ const AdCampaign = () => {
           <div className='help-description'>
             <p>Violation of Sledge Terms and condition or Sledge Guideline or Both can be done by click the “File Violation” Button with the Adequate details and proof of the such violation.</p>
             <p>Details may require is Screenshot, Screen video & The URL. One can also upload other details if relevant to situation.</p>
+            <div className='btn-container'>
+            <Button className='violation-btn'><span>File a Violation</span></Button>
+            </div>
           </div>
         </div>
       </div>
