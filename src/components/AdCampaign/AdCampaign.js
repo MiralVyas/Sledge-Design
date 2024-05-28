@@ -1,17 +1,17 @@
 import React from 'react';
-import image1 from "../../image1.png"
-import image2 from "../../image2.png"
 import "./AdCampaign.css";
 import { Box, Divider } from '@mui/material';
 import { ReactComponent as LineArrow } from '../../Vector 123.svg';
+import StartCampaign from './StartCampaign';
+import CheckCampaign from './CheckCampaign';
 
 const AdCampaign = () => {
   return (
     <>
       <div className='plan-label'>Do Ad Campaigns in Sledgen</div>
       <div className='image-container'>
-        <img src={image1} alt="Logo" />
-        <img src={image2} alt="Logo" />
+        <StartCampaign />
+        <CheckCampaign />
       </div>
       <Divider variant="middle" style={{ backgroundColor: '#474747' }}  />
       <Box className="help">

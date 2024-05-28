@@ -1,0 +1,74 @@
+.card2-root {
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    padding-top: 30px;
+    background-image: url('../../Ellipse%205.png'), url('../../CornerIcon.png'), url('../../Group%2039770.png');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left top, right calc(100% - 30px), right calc(100% - 30px);
+    background-size: auto, auto, auto;
+}
+
+.card2-content{
+    padding-top: 45px;
+}
+
+.line {
+    width: 130px;
+    height: 5px;
+    background:#3ce0d8; 
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: left;
+    color: #FFFFFF !important;
+}
+
+.description {
+    width: 340px;
+    height: 86px;
+    gap: 0px;   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #ABABAB;
+}
+
+.start-card {
+    width: 720px;
+    height: 351px;
+    border-radius: 20px !important;
+    font-family: Calibri !important;
+}
+
+.card-2{
+    display: flex;
+    width: Hug (652px)px;
+    height: Hug (223px)px;  
+    gap: 12px;
+}
+
+.button{
+    height: 48px;
+    width: 180px;
+    border-radius: 96px !important;
+    text-transform: none;
+    background: linear-gradient(180deg, #01E5D4 0%, #137AEA 83%);
+    font-family: Calibri  !important;
+    font-size: 18px  !important;
+    font-weight: 700 !important;
+    line-height: 20px  !important;
+    text-align: center;
+    span{
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.53px;
+        text-align: center;
+    }
+}
